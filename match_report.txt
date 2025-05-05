@@ -1,0 +1,12 @@
+📚 Education Match:
+✘ bachelors
+✘ degree
+
+🛠️ Skills Match:
+✔ python
+✘ analyst
+✘ data
+✘ power bi
+✘ student
+
+💯 Total Match Score: 14%
