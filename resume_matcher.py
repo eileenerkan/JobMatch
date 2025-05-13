@@ -47,7 +47,7 @@ while True:
     job_lines.append(line)
 job_text = "\n".join(job_lines)
 
-print("✅ Job post loaded!\n")
+print("Job post loaded!\n")
 
 education_keywords = {
     "bachelor", "master", "phd", "degree", "engineering", "science", 
@@ -83,7 +83,7 @@ missing_skills = job_skills - resume_phrases
 
 
 with open("match_report.txt", "w") as f:
-    f.write("📚 Education Match:\n")
+    f.write("Education Match:\n")
     for word in sorted(matched_edu):
         print(f"✔ {word}\n")
     for word in sorted(missing_edu):
@@ -99,5 +99,5 @@ with open("match_report.txt", "w") as f:
     match_total = len(matched_edu) + len(matched_skills)
     match_percent = round((match_total / total) * 100) if total else 0 
 
-    f.write(f"\n💯 Total Match Score: {match_percent}%\n")
+    f.write(f"\n Total Match Score: {match_percent}%\n")
 
